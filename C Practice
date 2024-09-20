@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main() {
+int percentile;
+
+printf("Enter your grade: ");
+scanf("%d", &percentile);
+
+if (percentile >= 98) {
+    printf("1.0\n");
+} else if (percentile >= 95) {
+    printf("Grade: 1.25\n");
+} else if (percentile >= 92) {
+    printf("Grade: 1.50\n");
+} else if (percentile >= 89) {
+    printf("Grade: 1.75\n"); 
+} else if (percentile >= 85) {
+    printf("Grade: 2.0\n");
+} else if (percentile >= 82) {
+    printf("Grade: 2.25\n");
+} else if (percentile >= 80) {
+    printf("Grade: 2.50\n");
+} else if (percentile >= 77) {
+    printf("Grade: 2.75\n");
+} else if (percentile >= 75) {
+    printf("Grade: 3.0\n");  
+} else if (percentile > 69) {
+    printf("Grade: 5.0\n");
+} else {
+    printf("out-of-range\n");
+}
+    return 0;
+}
